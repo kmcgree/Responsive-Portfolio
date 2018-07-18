@@ -258,32 +258,36 @@ p {
 @media screen and (max-width: 640px) {
 #masthead {
   width: 640px;
-  padding-right:90px;
-
+  padding:0;
+  position:static;
+}
+#main-container {
+  padding-top:10px;
 }
 nav {
-  padding-right: 110px;
+  padding-right: 200px;
 }
 .auth-image {
   width: 100%;
 }
 .main-section {
-  margin-top: 60px;
+  margin-top: 10px;
   margin-bottom: 140px;
   padding: 20px;
+  width:100%;
 }
 #logo {
-  width:640px;
+  width:100%;
 }
 .work:nth-child(even){
   width: 100%;
   margin: auto;
-  padding: 10px;
+  padding: 0px;
 }
 .work {
   width: 100%;
   margin: auto;
-  padding: 10px;  
+  padding: 0px;  
 }
 h3 {
   width: 545px;
